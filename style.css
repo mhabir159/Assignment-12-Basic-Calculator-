@@ -1,0 +1,68 @@
+.ox{
+    background-color:khaki;
+    font-size: 30px;
+    font-family: 'Explora' , cursive;
+}
+.box{
+	width: 300px;
+	margin: auto;
+	transform: translateY(60px);
+	background: rgb(9, 179, 231);
+    background: linear-gradient(90deg, rgb(9, 179, 231) 0%, rgba(189,160,164,1) 20%, rgb(9, 179, 231) 35%, rgb(9, 179, 231) 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+input{
+	display: block;
+	height: 90px;
+}
+.clock{
+	text-align: center;
+	transform: translateY(30px);
+}
+.line{
+	
+	
+	display: flex;
+
+}
+.line *{
+	flex: 1;
+	padding: 20px 10px;
+	margin: 3px;
+	font-family: 'Russo One', sans-serif;
+	font-size: 15px;
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+	cursor:pointer;
+
+
+}
+body{
+	background: #8d8a8a;
+    margin: 0%;
+}
+span{
+	font-family: 'Russo One', sans-serif;
+	font-size: 80px;
+    letter-spacing: normal;
+}
+@media (max-width: 500px) {
+	span  {
+	  font-size: 60px;
+	}
+  }
+  @media (max-width: 320px) {
+	span {
+	  font-size: 30px;
+	}
+  }
+  @media (max-width: 400px) {
+	.box {
+	  width: 200px;
+	}
+  }
+  @media (max-width: 500px) {
+	body  {
+	 width: 240px;
+	}
+  }
